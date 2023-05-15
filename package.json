@@ -1,0 +1,24 @@
+{
+  "name": "rpn-calculator",
+  "version": "1.0.0",
+  "description": "command-line reverse polish notation (RPN) calculator",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "@types/node": "^20.1.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.5",
+    "@typescript-eslint/parser": "^5.59.5",
+    "eslint": "^8.40.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  }
+}
